@@ -1,10 +1,8 @@
 .image-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-gap: 0 7px;
-    grid-auto-row: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .image-list img {
-    width: 250px;
+    width: 100%;
 }

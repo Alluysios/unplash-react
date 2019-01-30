@@ -1,0 +1,7 @@
+.imageContainer {
+    flex: 1 0 33.333%;
+}
+
+.imageItem {
+    width: 100%;
+}

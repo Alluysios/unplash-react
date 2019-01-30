@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// 50 calls per day
 export default axios.create({
     baseURL: 'https://api.unsplash.com',
     headers: {
